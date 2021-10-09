@@ -1,0 +1,3 @@
+"E:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Midi_Lib.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Midi_Lib.dir/objects.a @CMakeFiles\Midi_Lib.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Midi_Lib.dir/objects.a -Wl,--no-whole-archive -o Midi_Lib.exe -Wl,--out-implib,libMidi_Lib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Midi_Lib.dir\linklibs.rsp
