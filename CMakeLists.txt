@@ -3,4 +3,4 @@ project(Midi_Lib)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Midi_Lib src/main.cpp)
+add_executable(Midi_Lib src/main.cpp src/utils.cpp src/utils.h)
